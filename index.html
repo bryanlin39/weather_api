@@ -4,9 +4,19 @@
     <link rel="stylesheet" href="build/css/vendor.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title></title>
+    <title>Weather</title>
   </head>
   <body>
-
+    <form class="weather">
+      <label for="city">City:</label>
+      <input type="text" id="city">
+      <button type="submit">Get Weather</button>
+    </form>
+    <button type="button" id="humidity-button">What is the humidity?</button><!-- humidity, temperature, one more -->
+    <button type="button" id="temperature-button">What is the temperature?</button>
+    <button type="button" id="sunset-button">When is sunset?</button>
+    <h3 id='humidity'></h3>
+    <h3 id ='temperature'></h3>
+    <h3 id='sunset'></h3>
   </body>
 </html>
